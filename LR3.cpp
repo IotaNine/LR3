@@ -64,7 +64,7 @@ int main()
     ResultArr(arr2, n);
     for (int i = 0; i < n; i++)
     {
-        if (arr2[i] < 0)
+        if ((arr2[i] % 2 != 0)
         {
             arr2[i] *= 3;
         }
